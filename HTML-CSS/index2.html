@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    body{
+        background-color: red;
+    }
+
+  #fpara{
+    background-color:orange;
+  }
+
+  #spara{
+    background-color:green;
+  }
+
+  .tpara{
+    background-color:blue;
+  }
+
+  /*
+  div p{
+    background-color:yellow;
+  }
+  */
+
+/*
+div>p{
+    background-color:yellow;
+  }
+  */
+  
+  /*
+div+p{
+    background-color:yellow;
+  }
+
+*/
+div~p{
+    background-color:yellow;
+  }
+</style>
+
+
+
+<body>
+    <!-- <p id="fpara">this is my css paragraph</p>
+    <p id="spara">This is my second paragraph</p>
+    <p class="tpara">This is my third paragraph</p>
+    <p class="tpara">This is my 4th paragraph</p> -->
+
+    <p>upper para outside div</p>
+    <div>
+
+        <p>1st para inside div</p>
+        <p>2nd para inside div</p>
+        <section><p>inside section</p></section>
+
+    </div>
+
+
+    <p>3rd para outside div</p>
+
+    <p>4th para outside div</p>
+    
+
+
+</body>
+</html>
