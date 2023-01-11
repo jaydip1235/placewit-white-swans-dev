@@ -8,10 +8,15 @@
     <title>Document</title>
 </head>
 <style>
-
+/*
     body{
-        background-color: red;
+        background-image: url("nature.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
+    */
+
+
 
   #fpara{
     background-color:orange;
@@ -31,33 +36,79 @@
   }
   */
 
-
+/*
 div>p{
     background-color:yellow;
   }
   
-  
+  */
   /*
 div+p{
     background-color:yellow;
   }
 
 */
+  /*
 div~p{
     background-color:yellow;
   }
+
+*/
+
+a:hover {
+    color:green;
+}
+a:link{
+    color:red;
+}
+
+p::first-line{
+    color:red;
+}
+p::first-letter{
+    font-weight:bold;
+}
+
+.mydiv{
+    background-color: rgb(30, 14, 177,0.3);
+}
+
+
+a[target=_blank]{
+    background-color: violet;
+    
+}
+/*
+.bpara{
+    border-style: dashed;
+    border-width: thick;
+    border-color:blue
+}
+*/
+/*
+.bpara{
+   border-top-style: dashed;
+   border-right-style: solid;
+   border-bottom-style:dotted;
+   border-left-style: solid;
+    border-width: thick;
+    border-color:blue
+}
+*/
+.bpara{
+    border: 2px dashed blue;
+}
 </style>
 
-
-
 <body>
-    <!-- <p id="fpara">this is my css paragraph</p>
+     <p id="fpara">this is my css paragraph</p>
     <p id="spara">This is my second paragraph</p>
     <p class="tpara">This is my third paragraph</p>
-    <p class="tpara">This is my 4th paragraph</p> -->
+    <p class="tpara">This is my 4th paragraph</p> 
 
-    <p>upper para outside div</p>
-    <div>
+     <p>upper para outside div</p>
+
+    <div class="mydiv">
 
         <p>1st para inside div</p>
         <p>2nd para inside div</p>
@@ -69,8 +120,21 @@ div~p{
     <p>3rd para outside div</p>
 
     <p>4th para outside div</p>
+
+    <a href="https://www.google.com">Go to google</a>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime animi quibusdam, repudiandae voluptatum ad unde debitis molestias, voluptatibus, qui rerum saepe? Nemo architecto consequuntur hic et delectus ducimus praesentium dolor debitis maiores obcaecati ea, laborum consectetur doloremque in dignissimos similique provident id? Libero animi quia recusandae enim pariatur officia adipisci quos quasi? Esse ad, saepe perspiciatis a cum alias quidem, ipsum nihil, temporibus dolores aspernatur est facere quaerat ratione. Voluptates inventore architecto dolorem tenetur nulla accusantium earum unde, quis vel nisi veritatis ab sapiente omnis optio quidem amet expedita quibusdam?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis iste commodi obcaecati aut laborum unde dignissimos beatae hic fugit quis!</p>
     
 
+     <a href="https://www.youtube.com">Go to youtube</a>
+     <a href="https://www.github.com"target="_blank">Go to Github</a>
+
+     <!-- <div>
+        <img src="nature.jpg">
+     </div> -->
+   <p class="bpara">Bordered paragraph</p>
 
 </body>
 </html>
